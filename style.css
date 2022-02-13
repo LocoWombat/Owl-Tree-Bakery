@@ -1,0 +1,92 @@
+
+
+.otb {
+    display: flex;
+    flex-shrink: auto;
+    width: 300px;
+    height: 200px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: 2px solid black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-links {
+    margin-left: auto;
+    padding: 32px;
+    padding-right: 325px;
+    gap: 15px;
+}
+
+.header-logo {
+    padding-top: 32px;
+    padding-left: 325px
+}
+
+.top {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.intro {
+    padding-left: 325px;
+    width: 300px;
+    font-size: 24px;
+}
+
+.tour {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cakes, .cupcakes, .cookies, .scones {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.bottom {
+    background-color: darkgray;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+button {
+    width: 100px;
+    height: 75px;
+    font-size: 24px;
+    margin-top: 25px;
+}
